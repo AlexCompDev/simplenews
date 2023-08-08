@@ -15,13 +15,8 @@ class ArticlesForm(ModelForm):
                 'class': 'form-control',
                 'placeholder': 'Анонс статьи'
             }),
-            "announce": TextInput(attrs={
-                'class': 'form-control',
-                'placeholder': 'Анонс статьи'
-            }),
             "full_text": Textarea(attrs={
                 'class': 'form-control',
                 'placeholder': 'Текст статьи'
             }),
-
         }
